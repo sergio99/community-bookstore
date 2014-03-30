@@ -1,0 +1,41 @@
+name = "Community Bookstore"
+description = "Pre-configured installation to create a community bookstore page"
+exclusive = "1"
+core ="7.x"
+;------------
+;Dependencies
+;------------
+; Core
+dependencies[] = block
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+
+;community_bookstore required modules
+
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+dependencies[] = coffee 
+dependencies[] = entity
+dependencies[] = entity_token
+dependencies[] = module_filter
+dependencies[] = libraries
+dependencies[] = context
+dependencies[] = context_ui
+dependencies[] = link
+dependencies[] = googleanalytics
+dependencies[] = masquerade
